@@ -1,0 +1,122 @@
+2020-11-04 09:57:27 [INFO ]  ======================================== 2020-11-04 09:57:27 ========================================
+2020-11-04 09:57:27 [INFO ]  Base directory is ./results/distill_basic/Cifar10/arch(AlexCifarNet,xavier,1.0)_distillLR0.02_E(400,40,0.5)_lr0.01_B1x10x3_train(unknown_init)
+2020-11-04 09:57:27 [INFO ]  Options: 
+2020-11-04 09:57:27 [INFO ]  	arch: AlexCifarNet
+2020-11-04 09:57:27 [INFO ]  	attack_class: 0
+2020-11-04 09:57:27 [INFO ]  	base_seed: 1
+2020-11-04 09:57:27 [INFO ]  	batch_size: 1024
+2020-11-04 09:57:27 [INFO ]  	checkpoint_interval: 10
+2020-11-04 09:57:27 [INFO ]  	dataset: Cifar10
+2020-11-04 09:57:27 [INFO ]  	dataset_labels: !!python/tuple
+2020-11-04 09:57:27 [INFO ]  	- plane
+2020-11-04 09:57:27 [INFO ]  	- car
+2020-11-04 09:57:27 [INFO ]  	- bird
+2020-11-04 09:57:27 [INFO ]  	- cat
+2020-11-04 09:57:27 [INFO ]  	- deer
+2020-11-04 09:57:27 [INFO ]  	- dog
+2020-11-04 09:57:27 [INFO ]  	- monkey
+2020-11-04 09:57:27 [INFO ]  	- horse
+2020-11-04 09:57:27 [INFO ]  	- ship
+2020-11-04 09:57:27 [INFO ]  	- truck
+2020-11-04 09:57:27 [INFO ]  	dataset_normalization: !!python/tuple
+2020-11-04 09:57:27 [INFO ]  	- !!python/tuple
+2020-11-04 09:57:27 [INFO ]  	    - 0.4914
+2020-11-04 09:57:27 [INFO ]  	    - 0.4822
+2020-11-04 09:57:27 [INFO ]  	    - 0.4465
+2020-11-04 09:57:27 [INFO ]  	- !!python/tuple
+2020-11-04 09:57:27 [INFO ]  	    - 0.247
+2020-11-04 09:57:27 [INFO ]  	    - 0.243
+2020-11-04 09:57:27 [INFO ]  	    - 0.261
+2020-11-04 09:57:27 [INFO ]  	dataset_root: ./data/cifar10
+2020-11-04 09:57:27 [INFO ]  	decay_epochs: 40
+2020-11-04 09:57:27 [INFO ]  	decay_factor: 0.5
+2020-11-04 09:57:27 [INFO ]  	device_id: 0
+2020-11-04 09:57:27 [INFO ]  	distill_epochs: 3
+2020-11-04 09:57:27 [INFO ]  	distill_lr: 0.02
+2020-11-04 09:57:27 [INFO ]  	distill_steps: 10
+2020-11-04 09:57:27 [INFO ]  	distilled_images_per_class_per_step: 1
+2020-11-04 09:57:27 [INFO ]  	distributed: false
+2020-11-04 09:57:27 [INFO ]  	dropout: false
+2020-11-04 09:57:27 [INFO ]  	epochs: 400
+2020-11-04 09:57:27 [INFO ]  	expr_name_format: null
+2020-11-04 09:57:27 [INFO ]  	image_dpi: 80
+2020-11-04 09:57:27 [INFO ]  	init: xavier
+2020-11-04 09:57:27 [INFO ]  	init_param: 1.0
+2020-11-04 09:57:27 [INFO ]  	input_size: 32
+2020-11-04 09:57:27 [INFO ]  	log_file: ./results/distill_basic/Cifar10/arch(AlexCifarNet,xavier,1.0)_distillLR0.02_E(400,40,0.5)_lr0.01_B1x10x3_train(unknown_init)/output.log
+2020-11-04 09:57:27 [INFO ]  	log_interval: 100
+2020-11-04 09:57:27 [INFO ]  	log_level: INFO
+2020-11-04 09:57:27 [INFO ]  	lr: 0.01
+2020-11-04 09:57:27 [INFO ]  	mode: distill_basic
+2020-11-04 09:57:27 [INFO ]  	model_dir: ./models/
+2020-11-04 09:57:27 [INFO ]  	model_subdir_format: null
+2020-11-04 09:57:27 [INFO ]  	n_nets: 1
+2020-11-04 09:57:27 [INFO ]  	nc: 3
+2020-11-04 09:57:27 [INFO ]  	no_log: false
+2020-11-04 09:57:27 [INFO ]  	num_classes: 10
+2020-11-04 09:57:27 [INFO ]  	num_workers: 8
+2020-11-04 09:57:27 [INFO ]  	phase: train
+2020-11-04 09:57:27 [INFO ]  	results_dir: ./results/
+2020-11-04 09:57:27 [INFO ]  	sample_n_nets: 1
+2020-11-04 09:57:27 [INFO ]  	source_dataset: null
+2020-11-04 09:57:27 [INFO ]  	start_time: '2020-11-04 09:57:27'
+2020-11-04 09:57:27 [INFO ]  	target_class: 1
+2020-11-04 09:57:27 [INFO ]  	test_batch_size: 1024
+2020-11-04 09:57:27 [INFO ]  	test_distill_epochs: null
+2020-11-04 09:57:27 [INFO ]  	test_distilled_images: loaded
+2020-11-04 09:57:27 [INFO ]  	test_distilled_lrs:
+2020-11-04 09:57:27 [INFO ]  	- loaded
+2020-11-04 09:57:27 [INFO ]  	test_n_nets: 1
+2020-11-04 09:57:27 [INFO ]  	test_n_runs: 1
+2020-11-04 09:57:27 [INFO ]  	test_name_format: null
+2020-11-04 09:57:27 [INFO ]  	test_nets_type: unknown_init
+2020-11-04 09:57:27 [INFO ]  	test_niter: 1
+2020-11-04 09:57:27 [INFO ]  	test_optimize_n_nets: 20
+2020-11-04 09:57:27 [INFO ]  	test_optimize_n_runs: null
+2020-11-04 09:57:27 [INFO ]  	train_nets_type: unknown_init
+2020-11-04 09:57:27 [INFO ]  	world_rank: 0
+2020-11-04 09:57:27 [INFO ]  	world_size: 1
+2020-11-04 09:57:27 [INFO ]  	
+2020-11-04 09:57:27 [WARNING]  ./results/distill_basic/Cifar10/arch(AlexCifarNet,xavier,1.0)_distillLR0.02_E(400,40,0.5)_lr0.01_B1x10x3_train(unknown_init)/opt.yaml already exists, moved to ./results/distill_basic/Cifar10/arch(AlexCifarNet,xavier,1.0)_distillLR0.02_E(400,40,0.5)_lr0.01_B1x10x3_train(unknown_init)/old_opts/opt_2020_11_04__09_53_48.yaml
+2020-11-04 09:57:50 [INFO ]  train dataset size:	50000
+2020-11-04 09:57:50 [INFO ]  test dataset size: 	10000
+2020-11-04 09:57:50 [INFO ]  datasets built!
+2020-11-04 09:57:50 [INFO ]  mode: distill_basic, phase: train
+2020-11-04 09:57:50 [INFO ]  Build 1 AlexCifarNet network(s) with [xavier(1.0)] init
+2020-11-04 09:57:53 [INFO ]  Build 1 AlexCifarNet network(s) with [xavier(1.0)] init
+2020-11-04 09:57:53 [INFO ]  Train 10 steps iterated for 3 epochs
+2020-11-04 09:57:54 [ERROR]  Fatal error: 
+2020-11-04 09:57:54 [ERROR]  Traceback (most recent call last):
+2020-11-04 09:57:54 [ERROR]    File "main.py", line 402, in <module>
+2020-11-04 09:57:54 [ERROR]      main(options.get_state())
+2020-11-04 09:57:54 [ERROR]    File "main.py", line 131, in main
+2020-11-04 09:57:54 [ERROR]      steps = train_distilled_image.distill(state, state.models)
+2020-11-04 09:57:54 [ERROR]    File "/zijia/innova_show/dataset-distillation/train_distilled_image.py", line 290, in distill
+2020-11-04 09:57:54 [ERROR]      return Trainer(state, models).train()
+2020-11-04 09:57:54 [ERROR]    File "/zijia/innova_show/dataset-distillation/train_distilled_image.py", line 211, in train
+2020-11-04 09:57:54 [ERROR]      for epoch, it, (rdata, rlabel) in self.prefetch_train_loader_iter():
+2020-11-04 09:57:54 [ERROR]    File "/zijia/innova_show/dataset-distillation/train_distilled_image.py", line 195, in prefetch_train_loader_iter
+2020-11-04 09:57:54 [ERROR]      for it, val in enumerate(train_iter):
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 435, in __next__
+2020-11-04 09:57:54 [ERROR]      data = self._next_data()
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1085, in _next_data
+2020-11-04 09:57:54 [ERROR]      return self._process_data(data)
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 1111, in _process_data
+2020-11-04 09:57:54 [ERROR]      data.reraise()
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/_utils.py", line 428, in reraise
+2020-11-04 09:57:54 [ERROR]      raise self.exc_type(msg)
+2020-11-04 09:57:54 [ERROR]  RuntimeError: Caught RuntimeError in DataLoader worker process 0.
+2020-11-04 09:57:54 [ERROR]  Original Traceback (most recent call last):
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/worker.py", line 198, in _worker_loop
+2020-11-04 09:57:54 [ERROR]      data = fetcher.fetch(index)
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 47, in fetch
+2020-11-04 09:57:54 [ERROR]      return self.collate_fn(data)
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 83, in default_collate
+2020-11-04 09:57:54 [ERROR]      return [default_collate(samples) for samples in transposed]
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 83, in <listcomp>
+2020-11-04 09:57:54 [ERROR]      return [default_collate(samples) for samples in transposed]
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/utils/data/_utils/collate.py", line 53, in default_collate
+2020-11-04 09:57:54 [ERROR]      storage = elem.storage()._new_shared(numel)
+2020-11-04 09:57:54 [ERROR]    File "/opt/conda/lib/python3.8/site-packages/torch/storage.py", line 137, in _new_shared
+2020-11-04 09:57:54 [ERROR]      return cls._new_using_fd(size)
+2020-11-04 09:57:54 [ERROR]  RuntimeError: unable to write to file </torch_14434_3766313901>
